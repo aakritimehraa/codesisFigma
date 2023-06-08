@@ -1,0 +1,117 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 100px;
+    z-index: 1;
+    max-width: 100%;
+    margin-left: 3%;
+}
+
+
+/* banner Left */
+.bannerLeft {
+    flex: 1;
+    position: relative;
+}
+
+.bannerTitle {
+    color: #9e2349;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+
+.bannerText {
+    max-width: 600px;
+    font-size: 71px;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.bannerText span {
+    color: #9e2349;
+}
+
+.bannerDesc {
+    max-width: 600px;
+    color: #a2a3a2;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.bannerTitle::before {
+    background-color: #9e2349;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    transform: translateY(-50%);
+    width: 2.4rem;
+}
+
+.bannerLeft button {
+    margin-top: 40px;
+    width: 271px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #7D59C3;
+    box-shadow: 10px 10px 30px rgba(125, 89, 195, 0.2);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* banner Right */
+.bannerRight {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 4%;
+}
+
+.bannerRight div {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.mobileContainer {
+    position: relative;
+}
+
+.innerImage {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin-top: 10%;
+}
+
+.info span {
+    color: #7C5AC7;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.info p {
+    font-weight: 500;
+    font-size: 16px;
+}

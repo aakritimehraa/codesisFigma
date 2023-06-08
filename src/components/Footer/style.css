@@ -1,0 +1,136 @@
+.footer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background: #202221;
+}
+
+.footerContent{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+}
+.footer div {
+    flex: 1;
+}
+
+
+/* footer left */
+.footerLeft{
+   padding: 20px;
+   max-height: 80%;
+   margin: auto;
+   border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.emailInput {
+    position: relative;
+    display: inline-block;
+
+}
+
+.emailInput input {
+    background: #202221;
+    opacity: 0.3;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 10px 50px 30px 10px;
+    color: #FFFFFF;
+    width: 440px;
+}
+
+.emailInput .submitBtn {
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: #2E302F;
+    box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.footerText {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 5%;
+}
+
+.signup{
+width: 271px;
+height: 60px;
+border: none;
+outline: none;
+color: white;
+background: #7D59C3;
+box-shadow: 10px 10px 30px rgba(125, 89, 195, 0.2);
+border-radius: 20px;
+font-weight: 600;
+font-size: 16px;
+}
+
+.socialMedia{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+/* footer right */
+.footerRight {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px; 
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .footerRightRow1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    max-width:76%;
+  }
+  .footerRightRow1 .column{
+    width: 200px;
+
+  }
+  .footerRightRow1 div img{
+    padding: 40px;
+  }
+  .footerRightRow2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  .footerRightRow3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  
+  
+  .column {
+  }
+
+ 
+  .footerRight ul li  {
+  list-style: none;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+ ul li:first-child {
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+ul li {
+  margin-bottom: 10px;
+}
+
+  

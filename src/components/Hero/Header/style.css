@@ -1,0 +1,92 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  
+  .navContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+  }
+  
+  .logo {
+    margin-right: 50px;
+  }
+  
+  .navigation {
+    margin-right: 50px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 30px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+
+ a{
+    text-decoration: none;
+ }
+  .menu a{
+  color: #2F3130;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.active{
+    color: #7C5AC7 !important;
+}
+.active::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    margin-left: 16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #7C5AC7;
+  }
+.actionButtons {
+    display: flex;
+    gap: 10px;
+    margin-right: 80px;
+  }
+.contactButton {
+    border-radius: 20px;
+    width: 157px;
+    height: 58px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .loginButton {
+    border-radius: 20px;
+    width: 140px;
+    height: 58px;
+    background: white;
+    border: none;
+    color: #7D59C3;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
